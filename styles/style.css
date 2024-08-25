@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #232730;
+ 
+}
+
+
+@font-face {
+  font-family: Lora;
+  src: url("../fonts/lora/Lora-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Lora-italic;
+  src: url("../fonts/lora/Lora-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Noto Sans;
+  src: url("../fonts/noto sansa/NotoSans-VariableFont_wdth,wght.ttf");
+}
+
+/* 
+colors :
+
+#C7763E
+#19314B
+#A55C30
+#F8D7A4
+#232730
+*/
+.container {
+  margin: 0 auto;
+  width: 1194px;
+}
+/* nav header */
+.nav-header {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  margin: 23px 123px;
+ 
+}
+.ul-list {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Noto Sans;
+}
+.nav-link {
+  color: #232730;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: #a55c30;
+}
+.active {
+  color: #a55c30;
+  font-weight: 600;
+}
+.logo-header {
+  font-family: Lora-italic;
+  font-size: 32px;
+  color: #a55c30;
+  font-weight: 400;
+}
+.logo-header-2 {
+  font-weight: 700;
+  font-family: Lora;
+}
+.logo{
+  text-decoration: none;
+}
+
+/* main header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.title-text {
+  font-family: Lora;
+  font-size: 64px;
+  line-height: 82px;
+  font-weight: 700;
+  max-width: 457px;
+  margin-top: 114px;
+}
+.tilte {
+  margin-left: 123px;
+  display: flex;
+  gap: 47px;
+  align-items: center;
+}
+.title-bar {
+  display: block;
+  width: 9px;
+  height: 261px;
+  background-color: #F8D7A4;
+
+}
+.car-backg {
+width:668px ;
+height: 842px;
+margin-top: -90px;
+}
+.car-img {
+  position: absolute;
+  z-index: 10;
+  top: 230px;
+  right: 76px;
+  width:832px ;
+  height:503px ;
+
+}
+
