@@ -3,9 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: #232730;
- 
 }
-
 
 @font-face {
   font-family: Lora;
@@ -39,8 +37,15 @@ colors :
   position: sticky;
   align-items: center;
   justify-content: space-between;
-  margin: 23px 123px;
- 
+  margin-top: 23px;
+  position: sticky;
+  top: 0;
+  padding: 0px 123px;
+  background-color: hwb(0 100% 0% / 0.95);
+  height: 88px;
+}
+.btn-mobile-nav {
+  display: none;
 }
 .ul-list {
   display: flex;
@@ -49,14 +54,17 @@ colors :
   font-size: 16px;
   font-family: Noto Sans;
 }
-.nav-link {
+.nav-link:link,
+.nav-link:visited {
   color: #232730;
   text-decoration: none;
+  transition: all 0.3s;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: #a55c30;
 }
-.active {
+.active:link,
+.active:visited {
   color: #a55c30;
   font-weight: 600;
 }
@@ -70,7 +78,7 @@ colors :
   font-weight: 700;
   font-family: Lora;
 }
-.logo{
+.logo {
   text-decoration: none;
 }
 
@@ -79,7 +87,6 @@ colors :
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 .title-text {
   font-family: Lora;
@@ -99,21 +106,21 @@ colors :
   display: block;
   width: 9px;
   height: 261px;
-  background-color: #F8D7A4;
-
+  background-color: #f8d7a4;
 }
 .car-backg {
-width:668px ;
-height: 842px;
-margin-top: -90px;
+  width: 668px;
+  height: 842px;
+  margin-top: -90px;
+}
+.car-img-res {
+  display: none;
 }
 .car-img {
   position: absolute;
   z-index: 10;
   top: 230px;
   right: 76px;
-  width:832px ;
-  height:503px ;
-
+  width: 832px;
+  height: 503px;
 }
-

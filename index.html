@@ -5,24 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaffeur landing page</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/Responsive.css" />
+    <!-- <link rel="stylesheet" href="./styles/res.css" /> -->
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <!-- nav bar -->
       <nav class="nav-header">
+        <!-- logo -->
         <a href="#" class="logo">
           <span class="logo-header"
             ><span class="logo-header-2">Lux</span>Chaffeur</span
           >
         </a>
-        <ul class="ul-list">
-          <li><a href="#" class="nav-link active">Home</a></li>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="#" class="nav-link">Services</a></li>
-          <li><a href="#" class="nav-link">Fleet</a></li>
-          <li><a href="#" class="nav-link">Contact us</a></li>
-        </ul>
+        <div>
+          <button class="btn-mobile-nav">
+            <ion-icon class="ion-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="ion-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+
+          <ul class="ul-list">
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Fleet</a></li>
+            <li><a href="#" class="nav-link">Contact us</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="main-header">
         <div class="tilte">
@@ -35,9 +45,24 @@
         <div class="car-bg">
           <img class="car-backg" src="./images/Vector (1).svg" alt="car-bg" />
           <img class="car-img" src="./images/image 2.webp" alt="car-bg" />
+          <img
+            class="car-img-res"
+            src="./images/car img respnsive.png"
+            alt="car-bg Responsive"
+          />
         </div>
       </div>
     </header>
+    <!-- about section -->
+
     <script src="./scripts/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
