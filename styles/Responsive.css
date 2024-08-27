@@ -15,6 +15,7 @@
     padding: 16px 25px;
     position: sticky;
     top: 0;
+    /* flex-direction: row-reverse; */
     background-color: hwb(0 100% 0% / 0.95);
   }
 
@@ -36,22 +37,22 @@
 
   .ul-list {
     position: absolute;
-    top: 63px;
-    right: 0;
+    top: 100%;
+    left: 0;
     width: 60%;
     background-color: rgba(12, 12, 12, 0.8);
     flex-direction: column;
     gap: 0px;
-    height: 100vh;
-    z-index: 1000;
+    height: 100vw;
+
     margin: 0;
-    padding-top: 171px;
+    padding-top: 170px;
     padding-left: 0;
     opacity: 0;
-    visibility: hidden;
+    visibility:hidden;
+    transform: translateX(-100%);
     pointer-events: none;
     transition: all 0.5s ease-in;
-    transform: translateX(100%);
   }
   .nav-open .ul-list {
     transform: translateX(0);
@@ -74,7 +75,7 @@
 
   .nav-open .ion-mobile-nav[name="close-outline"] {
     display: block;
-    transition: all ;
+    transition: all;
   }
   .nav-open .ion-mobile-nav[name="menu-outline"] {
     display: none;

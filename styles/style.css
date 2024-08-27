@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: #232730;
+  direction: ltr;
 }
 
 @font-face {
@@ -39,6 +40,7 @@ colors :
   justify-content: space-between;
   margin-top: 23px;
   position: sticky;
+  
   top: 0;
   padding: 0px 123px;
   background-color: hwb(0 100% 0% / 0.95);
