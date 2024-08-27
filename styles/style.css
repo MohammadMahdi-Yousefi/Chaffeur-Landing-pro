@@ -5,6 +5,10 @@ body {
   color: #232730;
   direction: ltr;
 }
+.container {
+  width: 1194px;
+  margin: 0 auto;
+}
 
 @font-face {
   font-family: Lora;
@@ -28,10 +32,7 @@ colors :
 #F8D7A4
 #232730
 */
-.container {
-  margin: 0 auto;
-  width: 1194px;
-}
+
 /* nav header */
 .nav-header {
   display: flex;
@@ -40,7 +41,7 @@ colors :
   justify-content: space-between;
   margin-top: 23px;
   position: sticky;
-  
+  z-index: 2;
   top: 0;
   padding: 0px 123px;
   background-color: hwb(0 100% 0% / 0.95);
@@ -99,7 +100,7 @@ colors :
   margin-top: 114px;
 }
 .tilte {
-  margin-left: 123px;
+  margin-left: 168px;
   display: flex;
   gap: 47px;
   align-items: center;
@@ -120,9 +121,42 @@ colors :
 }
 .car-img {
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   top: 230px;
   right: 76px;
   width: 832px;
   height: 503px;
+}
+/* about section styles */
+
+.about-section {
+  display: flex;
+  gap: 133px;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.about-img {
+  width: 580px;
+  height: 523px;
+}
+.about-text {
+  max-width: 481px;
+}
+.about-header {
+  font-family: Lora;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51.2px;
+  text-align: left;
+  color: #a55c30;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.about-par {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.2px;
+  text-align: left;
+  text-align: start;
 }
