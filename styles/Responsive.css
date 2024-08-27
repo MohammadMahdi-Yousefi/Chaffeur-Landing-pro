@@ -8,18 +8,23 @@
   .logo-header {
     font-size: 24px;
   }
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
 
   .nav-header {
     box-shadow: 0px 2px 4px 0px #d6d9df66;
-    margin: 46px 0 0 0;
-    padding: 16px 25px;
     position: sticky;
     top: 0;
-    /* flex-direction: row-reverse; */
+    height: 64px;
     background-color: hwb(0 100% 0% / 0.95);
+    justify-content: space-between;
+    padding: 0 26px;
+    margin-top: 24px;
   }
 
-  /* mobile nav section */
+  /*////////////////////////////////mobile nav section /////////////////////////*/
   .btn-mobile-nav {
     border: none;
     background: none;
@@ -27,8 +32,8 @@
     display: block;
   }
   .ion-mobile-nav {
-    width: 24px;
-    height: 16px;
+    width: 26px;
+    height: 18px;
     color: #1f2430;
   }
   .ion-mobile-nav[name="close-outline"] {
@@ -43,13 +48,13 @@
     background-color: rgba(12, 12, 12, 0.8);
     flex-direction: column;
     gap: 0px;
-    height: 100vw;
+    height: 100vh;
 
     margin: 0;
     padding-top: 170px;
     padding-left: 0;
     opacity: 0;
-    visibility:hidden;
+    visibility: hidden;
     transform: translateX(-100%);
     pointer-events: none;
     transition: all 0.5s ease-in;
@@ -81,7 +86,10 @@
     display: none;
   }
 
-  /* main  */
+  /*////////////////////////////////////// main header */
+  .main-header {
+    flex-direction: column;
+  }
   .car-backg {
     display: none;
   }
@@ -110,10 +118,40 @@
   }
   .car-img-res {
     display: block;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 230px;
-    z-index: -1;
+    margin-top: -150px;
+  }
+
+  /*////////////////////////////////// about section */
+  .about-section {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 22px;
+    /* align-items: center; */
+    /* margin-bottom: 130px; */
+  }
+  .about-img {
+    width: 344px;
+    height: 267px;
+    margin-top: 3px;
+    /* display: block;  */
+  }
+
+  .about-header {
+    font-family: Lora;
+     font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    color: #a55c30;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  .about-par {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 15px;
   }
 }

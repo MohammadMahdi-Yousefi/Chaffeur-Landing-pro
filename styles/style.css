@@ -39,7 +39,7 @@ colors :
   position: sticky;
   align-items: center;
   justify-content: space-between;
-  margin-top: 23px;
+
   position: sticky;
   z-index: 2;
   top: 0;
@@ -134,6 +134,7 @@ colors :
   gap: 133px;
   align-items: center;
   margin-bottom: 130px;
+  
 }
 .about-img {
   width: 580px;
@@ -158,5 +159,5 @@ colors :
   font-weight: 400;
   line-height: 23.2px;
   text-align: left;
-  text-align: start;
+ 
 }
