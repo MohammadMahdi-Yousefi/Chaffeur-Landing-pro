@@ -123,11 +123,10 @@
 
   /*////////////////////////////////// about section */
   .about-section {
-    /* display: flex; */
     flex-direction: column;
     gap: 22px;
-    /* align-items: center; */
-    /* margin-bottom: 130px; */
+    margin-bottom: 54px;
+   
   }
   .about-img {
     width: 344px;
@@ -153,5 +152,6 @@
     line-height: 24px;
     text-align: center;
     padding: 0 15px;
+    margin: 0;
   }
 }

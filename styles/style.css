@@ -1,7 +1,11 @@
-body {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
   color: #232730;
   direction: ltr;
 }
@@ -35,17 +39,21 @@ colors :
 
 /* nav header */
 .nav-header {
+  
   display: flex;
-  position: sticky;
   align-items: center;
   justify-content: space-between;
-
+  /* padding: 0px 125px; */
+}
+.bbb{
+  padding: 18px 0px;
+  line-height: 44px;
   position: sticky;
-  z-index: 2;
   top: 0;
-  padding: 0px 123px;
+  z-index: 2;
   background-color: hwb(0 100% 0% / 0.95);
-  height: 88px;
+
+
 }
 .btn-mobile-nav {
   display: none;
@@ -93,17 +101,18 @@ colors :
 }
 .title-text {
   font-family: Lora;
-  font-size: 64px;
-  line-height: 82px;
+  font-size: 56px;
+  line-height: 71px;
   font-weight: 700;
   max-width: 457px;
-  margin-top: 114px;
+  /* margin-top: 114px; */
 }
 .tilte {
   margin-left: 168px;
   display: flex;
   gap: 47px;
   align-items: center;
+  margin-top: 191px;
 }
 .title-bar {
   display: block;
@@ -134,7 +143,6 @@ colors :
   gap: 133px;
   align-items: center;
   margin-bottom: 130px;
-  
 }
 .about-img {
   width: 580px;
@@ -159,5 +167,51 @@ colors :
   font-weight: 400;
   line-height: 23.2px;
   text-align: left;
- 
+}
+/* services section */
+.services-section {
+  background: linear-gradient(270deg, rgb(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
+    url("../images/83bcdf4f565c4675aed55ddf942a1bbb.png") no-repeat center;
+
+  margin-bottom: 59px;
+  display: flex;
+  flex-direction: column;
+}
+.services-content {
+}
+.services-heading {
+  text-align: center;
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61.44px;
+  color: #a55c30;
+}
+.services {
+  display: flex;
+  gap: 143px;
+}
+.service {
+  max-width: 303px;
+  text-align: center;
+  color: white;
+}
+.service-title {
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+.service-text {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.service img {
+  margin: 0 auto;
 }
