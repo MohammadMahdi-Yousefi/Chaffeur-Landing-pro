@@ -127,7 +127,6 @@
     flex-direction: column;
     gap: 22px;
     margin-bottom: 54px;
-   
   }
   .about-img {
     width: 344px;
@@ -138,7 +137,7 @@
 
   .about-header {
     font-family: Lora;
-     font-size: 32px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 41px;
     text-align: center;
@@ -154,5 +153,56 @@
     text-align: center;
     padding: 0 15px;
     margin: 0;
+  }
+  /* services responsive style */
+  .services-section {
+    background: linear-gradient(270deg, rgb(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
+      url("../images/83bcdf4f565c4675aed55ddf942a1bbb.png") no-repeat center;
+
+    margin-bottom: 59px;
+    padding: 48px 30px 40px;
+  }
+
+  .services-heading {
+    font-size: 32px;
+    line-height: 41px;
+  }
+  .services {
+    /* display: flex; */
+    flex-direction: column;
+    row-gap: 56px;
+    margin-top: 48px;
+    /* max-width: 300px; */
+    width: auto;
+  }
+
+  .service {
+    text-align: center;
+    color: white;
+  }
+  .service img {
+    width: 56px;
+    height: 56px;
+  }
+  .service-title {
+    font-size: 18px;
+    /* font-weight: 700; */
+
+    /* text-align: center; */
+  }
+  .service-text {
+    margin-top: 32px;
+
+    /* font-family: Nunito Sans; */
+    font-size: 14px;
+    /* font-weight: 400; */
+    line-height: 18px;
+    /* letter-spacing: 0.05em; */
+    text-align: center;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }

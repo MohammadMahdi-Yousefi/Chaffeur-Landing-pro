@@ -169,8 +169,10 @@ colors :
     url("../images/83bcdf4f565c4675aed55ddf942a1bbb.png") no-repeat center;
 
   margin-bottom: 59px;
-  display: flex;
-  flex-direction: column;
+  padding-top: 107px;
+  padding-bottom: 120px;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .services-heading {
@@ -180,13 +182,11 @@ colors :
   font-weight: 700;
   line-height: 61.44px;
   color: #a55c30;
-  margin-top: 107px;
 }
 .services {
   display: flex;
   column-gap: 143px;
   margin-top: 70px;
-  margin-bottom: 129px;
 }
 
 .service {
@@ -196,7 +196,7 @@ colors :
 .service-title {
   font-size: 22px;
   font-weight: 700;
- 
+
   text-align: left;
 }
 .service-text {
@@ -214,5 +214,4 @@ colors :
   -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
   overflow: hidden;
-
 }
