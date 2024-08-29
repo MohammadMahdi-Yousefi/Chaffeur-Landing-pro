@@ -104,6 +104,7 @@
     margin-left: 31px;
     gap: 19px;
     display: flex;
+    margin-top: 0;
     /* align-items: center; */
   }
   .title-text {

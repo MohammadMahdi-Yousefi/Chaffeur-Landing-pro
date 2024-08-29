@@ -23,8 +23,8 @@ body {
   src: url("../fonts/lora/Lora-Italic-VariableFont_wght.ttf");
 }
 @font-face {
-  font-family: Noto Sans;
-  src: url("../fonts/noto sansa/NotoSans-VariableFont_wdth,wght.ttf");
+  font-family: Nunito Sans;
+  src: url("../fonts/Nunito Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
 }
 
 /* 
@@ -39,21 +39,16 @@ colors :
 
 /* nav header */
 .nav-header {
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0px 125px; */
+  padding: 23px 0px;
 }
-.bbb{
-  padding: 18px 0px;
-  line-height: 44px;
+.bbb {
+  background-color: rgba(255, 255, 255, 0.98);
   position: sticky;
   top: 0;
-  z-index: 2;
-  background-color: hwb(0 100% 0% / 0.95);
-
-
+  z-index: 100;
 }
 .btn-mobile-nav {
   display: none;
@@ -63,7 +58,7 @@ colors :
   gap: 48px;
   list-style-type: none;
   font-size: 16px;
-  font-family: Noto Sans;
+  font-family: Nunito Sans;
 }
 .nav-link:link,
 .nav-link:visited {
@@ -162,7 +157,7 @@ colors :
   margin-bottom: 16px;
 }
 .about-par {
-  font-family: Noto Sans;
+  font-family: Nunito Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 23.2px;
@@ -177,8 +172,7 @@ colors :
   display: flex;
   flex-direction: column;
 }
-.services-content {
-}
+
 .services-heading {
   text-align: center;
   font-family: Lora;
@@ -186,32 +180,39 @@ colors :
   font-weight: 700;
   line-height: 61.44px;
   color: #a55c30;
+  margin-top: 107px;
 }
 .services {
   display: flex;
-  gap: 143px;
+  column-gap: 143px;
+  margin-top: 70px;
+  margin-bottom: 129px;
 }
+
 .service {
-  max-width: 303px;
   text-align: center;
   color: white;
 }
 .service-title {
-  font-family: Noto Sans;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
-  letter-spacing: -0.005em;
+ 
   text-align: left;
 }
 .service-text {
+  margin-top: 55px;
+
   font-family: Nunito Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.05em;
-  text-align: left;
-}
-.service img {
-  margin: 0 auto;
+  text-align: start;
+  min-width: 306px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
 }
