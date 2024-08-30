@@ -215,3 +215,115 @@ colors :
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* fleet section */
+.fleet-section {
+  margin-bottom: 132px;
+  position: relative;
+}
+.fleet-heading {
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 71.68px;
+  color: #a55c30;
+  text-align: center;
+  /* margin-bottom: 64px; */
+}
+
+.car-box {
+  padding: 61px 34px 22px;
+  /* box-shadow: 4px 5px 5px 0px #0000001a;  */
+  box-shadow: 1px 2px 13px -5px #0000001a;
+  text-align: center;
+  max-height: 470px;
+
+  border-radius: 6px;
+  /* border: 1px solid #0000001a; */
+}
+
+.car-box-heading {
+  margin-top: 27px;
+  text-align: center;
+  font-family: Nunito Sans;
+}
+.car-box-title {
+  font-size: 24px;
+  line-height: 32.74px;
+  font-weight: 700;
+  color: #a55c30;
+}
+.car-box-sub-title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.37px;
+  color: rgba(35, 34, 34, 0.96);
+}
+.car-box-desc {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(35, 34, 34, 0.96);
+  margin-top: 22px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.car-box-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.car-box-feature {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: left;
+}
+.swiper-button {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: #f8d7a4;
+  color: white;
+  z-index: 50;
+  cursor: pointer;
+}
+.prev-btn {
+  left: 75px;
+}
+.next-btn {
+  right: 75px;
+}
+.swiper-button ion-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.swiper-pagination-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 39px;
+}
+
+.swiper-wrapper {
+  margin-top: 64px;
+}
+.swiper {
+  transition: all 1.3s;
+}

@@ -4,3 +4,4 @@ const HeaderEl = document.querySelector(".header");
 BtnNavEl.addEventListener("click", function () {
   HeaderEl.classList.toggle("nav-open");
 });
+
