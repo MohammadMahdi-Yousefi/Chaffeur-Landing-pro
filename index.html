@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaffeur landing page</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/Responsive.css" />
     <link rel="stylesheet" href="./styles/bundle.min.css" />
+    <link rel="stylesheet" href="./styles/Responsive.css" />
   </head>
   <body>
     <!--  nav header -->
@@ -357,6 +357,20 @@
         navigation: {
           nextEl: ".next-btn",
           prevEl: ".prev-btn",
+        },
+        breakpoints: {
+          375: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          645: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 29,
+          },
         },
       });
     </script>

@@ -168,7 +168,6 @@ colors :
   background: linear-gradient(270deg, rgb(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
     url("../images/83bcdf4f565c4675aed55ddf942a1bbb.png") no-repeat center;
 
-  margin-bottom: 59px;
   padding-top: 107px;
   padding-bottom: 120px;
   /* display: flex; */
@@ -218,6 +217,7 @@ colors :
 
 /* fleet section */
 .fleet-section {
+  margin-top: 59px;
   margin-bottom: 132px;
   position: relative;
 }
@@ -241,6 +241,7 @@ colors :
   border-radius: 6px;
   /* border: 1px solid #0000001a; */
 }
+
 
 .car-box-heading {
   margin-top: 27px;
@@ -323,7 +324,4 @@ colors :
 
 .swiper-wrapper {
   margin-top: 64px;
-}
-.swiper {
-  transition: all 1.3s;
 }

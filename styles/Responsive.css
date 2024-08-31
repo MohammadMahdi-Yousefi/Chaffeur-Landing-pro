@@ -105,7 +105,6 @@
     gap: 19px;
     display: flex;
     margin-top: 0;
-    /* align-items: center; */
   }
   .title-text {
     font-family: Lora;
@@ -132,7 +131,6 @@
     width: 344px;
     height: 267px;
     margin-top: 3px;
-    /* display: block;  */
   }
 
   .about-header {
@@ -168,11 +166,9 @@
     line-height: 41px;
   }
   .services {
-    /* display: flex; */
     flex-direction: column;
     row-gap: 56px;
     margin-top: 48px;
-    /* max-width: 300px; */
     width: auto;
   }
 
@@ -186,23 +182,77 @@
   }
   .service-title {
     font-size: 18px;
-    /* font-weight: 700; */
-
-    /* text-align: center; */
   }
   .service-text {
     margin-top: 32px;
 
-    /* font-family: Nunito Sans; */
     font-size: 14px;
-    /* font-weight: 400; */
     line-height: 18px;
-    /* letter-spacing: 0.05em; */
     text-align: center;
 
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  /*  fleet section responsive */
+
+  .fleet-section {
+    margin-top: 40px;
+    margin-bottom: 90px;
+  }
+  .fleet-heading {
+    font-size: 32px;
+  }
+
+  .car-box {
+    padding: 46px 25px 16px;
+
+    max-height: 380px;
+
+    border-radius: 6px;
+  }
+  .car-box > img:first-child {
+    width: 233px;
+    height: 120px;
+  }
+
+  .car-box-heading {
+    margin-top: 20px;
+  }
+  .car-box-title {
+    font-size: 16px;
+  }
+  .car-box-sub-title {
+    font-size: 12px;
+  }
+  .car-box-desc {
+    margin-top: 16px;
+  }
+  .car-box-detail {
+    margin-top: 25px;
+  }
+  .car-box-feature {
+    column-gap: 14px;
+  }
+  .swiper-button {
+    display: none;
+  }
+
+  .swiper-button ion-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .swiper-pagination-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .swiper-wrapper {
+    margin-top: 36px;
   }
 }
