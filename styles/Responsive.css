@@ -205,4 +205,110 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  /*  fleet section responsive */
+
+  .fleet-section {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    /* position: relative; */
+  }
+  .fleet-heading {
+    /* font-family: Lora; */
+    font-size: 32px;
+    /* font-weight: 700;
+  line-height: 71.68px;
+  color: #a55c30;
+  text-align: center; */
+    /* margin-bottom: 64px; */
+  }
+
+  .car-box {
+    padding: 46px 25px 16px;
+    /* box-shadow: 1px 2px 13px -5px #0000001a; */
+    /* text-align: center; */
+    max-height: 380px;
+
+    border-radius: 6px;
+    /* border: 1px solid #0000001a; */
+  }
+  .car-box > img:first-child {
+    width: 233px;
+    height: 120px;
+  }
+
+  .car-box-heading {
+    margin-top: 20px;
+    /* text-align: center;
+  font-family: Nunito Sans; */
+  }
+  .car-box-title {
+    font-size: 16px;
+    /* line-height: 32.74px;
+  font-weight: 700;
+  color: #a55c30; */
+  }
+  .car-box-sub-title {
+    font-size: 12px;
+    /* font-weight: 400;
+  line-height: 16.37px;
+  color: rgba(35, 34, 34, 0.96); */
+  }
+  .car-box-desc {
+    /* font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(35, 34, 34, 0.96); */
+    margin-top: 16px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .car-box-detail {
+    /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+    margin-top: 25px;
+  }
+  .car-box-feature {
+    /* display: flex; */
+    /* align-items: center; */
+    column-gap: 14px;
+    /* font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  text-align: left; */
+  }
+  .swiper-button {
+    display: none;
+  }
+  /* .prev-btn {
+  left: 75px;
+}
+.next-btn {
+  right: 75px;
+} */
+  .swiper-button ion-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .swiper-pagination-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .swiper-wrapper {
+    margin-top: 36px;
+  }
+  .swiper-slide {
+    width: 300px;
+  }
 }
