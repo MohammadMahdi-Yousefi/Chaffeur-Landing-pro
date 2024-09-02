@@ -26,6 +26,10 @@ body {
   font-family: Nunito Sans;
   src: url("../fonts/Nunito Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
 }
+@font-face {
+  font-family: Nunito Sans -Italic;
+  src: url("../fonts/Nunito Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf");
+}
 
 /* 
 colors :
@@ -166,7 +170,7 @@ colors :
 /* services section */
 .services-section {
   background: linear-gradient(270deg, rgb(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
-    url("../images/83bcdf4f565c4675aed55ddf942a1bbb.png") no-repeat center;
+    url("../images/car-bg.png") no-repeat center;
 
   padding-top: 107px;
   padding-bottom: 120px;
@@ -242,7 +246,6 @@ colors :
   /* border: 1px solid #0000001a; */
 }
 
-
 .car-box-heading {
   margin-top: 27px;
   text-align: center;
@@ -303,6 +306,10 @@ colors :
   color: white;
   z-index: 50;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.swiper-button:hover {
+  background-color: #a55c30;
 }
 .prev-btn {
   left: 75px;
@@ -324,4 +331,135 @@ colors :
 
 .swiper-wrapper {
   margin-top: 64px;
+}
+.Test-header {
+  background-color: rgb(35, 34, 34, 0.96);
+  padding: 80px 245px;
+}
+
+/* Testimonials section */
+
+/* test-header */
+.Test-header {
+}
+.Test-achievments {
+  display: flex;
+  flex-direction: row;
+  column-gap: 290px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Test-achievment {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  text-align: center;
+}
+.Test-num {
+  font-family: Noto Sans;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 98.06px;
+}
+.Test-text {
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.69px;
+}
+/* test-middle */
+.Test-middle {
+  background-color: #f8d7a4;
+  padding: 116px 173px 61px;
+}
+.Test-main-middle {
+}
+.Test-middle-heading {
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 61.44px;
+  text-align: center;
+  color: #a55c30;
+}
+.Test-middle-box {
+  padding: 72px 145px;
+  /* margin-top: 61px; */
+  color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 130px;
+  background-color: #ffffff;
+}
+.Test-middle-box-profile img:first-child {
+  width: 160px;
+  height: 160px;
+  /* border-radius: 100%; */
+}
+.profile-detail {
+  text-align: center;
+  margin-top: 33px;
+}
+.profile-detail-name {
+  font-family: Nunito Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 48px;
+  display: block;
+  margin-bottom: -10px;
+}
+.profile-detail-loc {
+  font-family: Nunito Sans -Italic;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #979797;
+}
+.Test-middle-box-desc {
+  font-family: Nunito Sans -Italic;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+.desc-stars {
+  margin-top: 64px;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.desc-stars ion-icon {
+  width: 30px;
+  height: 28px;
+  fill: #f8d7a4;
+}
+
+/* test bottom */
+.test-bottom {
+  background: linear-gradient(270deg, rgb(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)),
+    url("../images/car-bg.png") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  height: 306px;
+}
+.test-bottom-title {
+  font-family: Nunito Sans;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43.58px;
+  text-align: left;
+}
+.test-bottom-sub {
+  font-family: Nunito Sans;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 76.27px;
+  text-align: left;
 }

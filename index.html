@@ -157,7 +157,7 @@
       <div class="container">
         <h2 class="fleet-heading">Fleet</h2>
         <!-- Slider main container -->
-        <div class="swiper">
+        <div class="swiper car-slider">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -335,8 +335,68 @@
         </div>
       </div>
     </section>
+    <!-- Testimonials section -->
+    <section class="Testimonials">
+      <div class="Test-header">
+        <div class="Test-achievments">
+          <div class="Test-achievment">
+            <span class="Test-num">70</span>
+            <span class="Test-text">VEHICLES</span>
+          </div>
+          <div class="Test-achievment">
+            <span class="Test-num">576</span>
+            <span class="Test-text">TRIPS DONE</span>
+          </div>
+          <div class="Test-achievment">
+            <span class="Test-num">321</span>
+            <span class="Test-text">EVENTS</span>
+          </div>
+        </div>
+      </div>
+      <div class="Test-middle">
+        <div class="Test-main-middle">
+          <h2 class="Test-middle-heading">Testimonials</h2>
+          <div class=" swiper swiper-test test-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper swiper-slide-test">
+                <div class="Test-middle-box container">
+                  <div class="Test-middle-box-profile">
+                    <img src="./images/Avatar.png" alt="profile1" />
+                    <div class="profile-detail">
+                      <span class="profile-detail-name">Annie Rudy</span>
+                      <span class="profile-detail-loc">Las vegas</span>
+                    </div>
+                  </div>
+                  <div class="Test-middle-box-desc">
+                    <p class="desc-par">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Mattis dui nec massa enim scelerisque scelerisque maecenas
+                      lectus. Tincidunt posuere nunc at amet, in. Enim
+                      ullamcorper lectus viverra donec. At faucibus nunc vel
+                      viverra massa malesuada leo iaculis tellus.
+                    </p>
+                    <div class="desc-stars">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="test-bottom">
+        <span class="test-bottom-title">We offer the best you can imagine</span>
+        <h3 class="test-bottom-sub">Call Now for booking 01477 678905 </h3>
+      </div>
+    </section>
 
-    <script src="./scripts/script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -346,25 +406,6 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="./scripts/bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        pagination: {
-          el: ".swiper-pagination-custom",
-          clickable: false,
-        },
-        navigation: {
-          nextEl: ".next-btn",
-          prevEl: ".prev-btn",
-        },
-        breakpoints: {
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 29,
-          },
-        },
-      });
-    </script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
