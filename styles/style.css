@@ -332,12 +332,17 @@ colors :
 .swiper-wrapper {
   margin-top: 64px;
 }
+
+
+
+
+
+/* Testimonials section */
 .Test-header {
   background-color: rgb(35, 34, 34, 0.96);
   padding: 80px 245px;
 }
 
-/* Testimonials section */
 
 /* test-header */
 .Test-header {
@@ -357,13 +362,13 @@ colors :
   text-align: center;
 }
 .Test-num {
-  font-family: Noto Sans;
+  font-family: Nunito Sans;
   font-size: 72px;
   font-weight: 600;
   line-height: 98.06px;
 }
 .Test-text {
-  font-family: Noto Sans;
+  font-family: Nunito Sans;
   font-size: 24px;
   font-weight: 400;
   line-height: 32.69px;
@@ -382,6 +387,7 @@ colors :
   line-height: 61.44px;
   text-align: center;
   color: #a55c30;
+  margin-bottom: 61px;
 }
 .Test-middle-box {
   padding: 72px 145px;
@@ -454,12 +460,15 @@ colors :
   font-size: 32px;
   font-weight: 400;
   line-height: 43.58px;
-  text-align: left;
+  text-align: center;
 }
 .test-bottom-sub {
   font-family: Nunito Sans;
   font-size: 56px;
   font-weight: 600;
   line-height: 76.27px;
-  text-align: left;
+  text-align: center;
 }
+
+/* Testimonials responsive styles */
+
