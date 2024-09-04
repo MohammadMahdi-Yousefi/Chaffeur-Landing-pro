@@ -144,7 +144,7 @@
     margin-bottom: 16px;
   }
   .about-par {
-    font-family: Noto Sans;
+    font-family: Nunito Sans;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -254,5 +254,111 @@
 
   .swiper-wrapper {
     margin-top: 36px;
+  }
+
+  /*  testimonials section */
+  .Testimonials {
+    width: 93%;
+    margin: 0 auto;
+  }
+  .Test-header {
+    padding: 58px 130px 97px;
+  }
+  .Test-achievments {
+    /* display: flex; */
+    flex-direction: column;
+    row-gap: 72px;
+  }
+  .Test-achievment {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+  }
+  .Test-num {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 65px;
+  }
+  .Test-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  /* test-middle */
+  .Test-middle {
+    /* background-color: #f8d7a4; */
+    padding: 40px 13px 139px;
+  }
+
+  .Test-middle-heading {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #a55c30;
+    margin-bottom: 72px;
+  }
+  .Test-middle-box {
+    padding: 55px 50px 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 34px;
+  }
+  .Test-middle-box-profile img:first-child {
+    width: 80px;
+    height: 80px;
+  }
+  .Test-middle-box-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-detail {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .profile-detail-name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .profile-detail-loc {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .Test-middle-box-desc {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .desc-stars {
+    margin-top: 14px;
+    gap: 4px;
+  }
+  .desc-stars ion-icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* test bottom */
+  .test-bottom {
+    background: linear-gradient(270deg, rgb(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)),
+      url("../images/car-bg.png") no-repeat center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 306px;
+  }
+  .test-bottom-title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .test-bottom-sub {
+    font-size: 32px;
+    line-height: 43px;
+    margin-top: 32px;
   }
 }
