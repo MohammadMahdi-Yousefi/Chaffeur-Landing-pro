@@ -5,10 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   color: #232730;
   direction: ltr;
 }
+
 .container {
   width: 1194px;
   margin: 0 auto;
@@ -18,14 +20,17 @@ body {
   font-family: Lora;
   src: url("../fonts/lora/Lora-VariableFont_wght.ttf");
 }
+
 @font-face {
   font-family: Lora-italic;
   src: url("../fonts/lora/Lora-Italic-VariableFont_wght.ttf");
 }
+
 @font-face {
   font-family: Nunito Sans;
   src: url("../fonts/Nunito Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
 }
+
 @font-face {
   font-family: Nunito Sans -Italic;
   src: url("../fonts/Nunito Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf");
@@ -48,15 +53,18 @@ colors :
   justify-content: space-between;
   padding: 23px 0px;
 }
+
 .bbb {
   background-color: rgba(255, 255, 255, 0.98);
   position: sticky;
   top: 0;
   z-index: 100;
 }
+
 .btn-mobile-nav {
   display: none;
 }
+
 .ul-list {
   display: flex;
   gap: 48px;
@@ -64,30 +72,36 @@ colors :
   font-size: 16px;
   font-family: Nunito Sans;
 }
+
 .nav-link:link,
 .nav-link:visited {
   color: #232730;
   text-decoration: none;
   transition: all 0.3s;
 }
+
 .nav-link:hover {
   color: #a55c30;
 }
+
 .active:link,
 .active:visited {
   color: #a55c30;
   font-weight: 600;
 }
+
 .logo-header {
   font-family: Lora-italic;
   font-size: 32px;
   color: #a55c30;
   font-weight: 400;
 }
+
 .logo-header-2 {
   font-weight: 700;
   font-family: Lora;
 }
+
 .logo {
   text-decoration: none;
 }
@@ -98,6 +112,7 @@ colors :
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .title-text {
   font-family: Lora;
   font-size: 56px;
@@ -106,6 +121,7 @@ colors :
   max-width: 457px;
   /* margin-top: 114px; */
 }
+
 .tilte {
   margin-left: 168px;
   display: flex;
@@ -113,20 +129,24 @@ colors :
   align-items: center;
   margin-top: 191px;
 }
+
 .title-bar {
   display: block;
   width: 9px;
   height: 261px;
   background-color: #f8d7a4;
 }
+
 .car-backg {
   width: 668px;
   height: 842px;
   margin-top: -90px;
 }
+
 .car-img-res {
   display: none;
 }
+
 .car-img {
   position: absolute;
   z-index: 1;
@@ -135,6 +155,7 @@ colors :
   width: 832px;
   height: 503px;
 }
+
 /* about section styles */
 
 .about-section {
@@ -142,15 +163,18 @@ colors :
   gap: 133px;
   align-items: center;
   margin-bottom: 130px;
-  font-family: Nunito Sans ;
+  font-family: Nunito Sans;
 }
+
 .about-img {
   width: 580px;
   height: 523px;
 }
+
 .about-text {
   max-width: 481px;
 }
+
 .about-header {
   font-family: Lora;
   font-size: 40px;
@@ -161,6 +185,7 @@ colors :
   margin-top: 0;
   margin-bottom: 16px;
 }
+
 .about-par {
   font-family: Nunito Sans;
   font-size: 16px;
@@ -168,6 +193,7 @@ colors :
   line-height: 23.2px;
   text-align: left;
 }
+
 /* services section */
 .services-section {
   background: linear-gradient(270deg, rgb(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
@@ -187,6 +213,7 @@ colors :
   line-height: 61.44px;
   color: #a55c30;
 }
+
 .services {
   display: flex;
   column-gap: 143px;
@@ -197,12 +224,14 @@ colors :
   text-align: center;
   color: white;
 }
+
 .service-title {
   font-size: 22px;
   font-weight: 700;
 
   text-align: left;
 }
+
 .service-text {
   margin-top: 55px;
 
@@ -215,7 +244,6 @@ colors :
   min-width: 306px;
 
   display: -webkit-box;
-  -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -226,6 +254,7 @@ colors :
   margin-bottom: 132px;
   position: relative;
 }
+
 .fleet-heading {
   font-family: Lora;
   font-size: 56px;
@@ -252,18 +281,21 @@ colors :
   text-align: center;
   font-family: Nunito Sans;
 }
+
 .car-box-title {
   font-size: 24px;
   line-height: 32.74px;
   font-weight: 700;
   color: #a55c30;
 }
+
 .car-box-sub-title {
   font-size: 12px;
   font-weight: 400;
   line-height: 16.37px;
   color: rgba(35, 34, 34, 0.96);
 }
+
 .car-box-desc {
   font-family: Nunito Sans;
   font-size: 12px;
@@ -274,16 +306,17 @@ colors :
   margin-top: 22px;
 
   display: -webkit-box;
-  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 .car-box-detail {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
 }
+
 .car-box-feature {
   display: flex;
   align-items: center;
@@ -294,6 +327,7 @@ colors :
   line-height: 19.1px;
   text-align: left;
 }
+
 .swiper-button {
   position: absolute;
   top: 50%;
@@ -309,15 +343,19 @@ colors :
   cursor: pointer;
   transition: all 0.3s;
 }
+
 .swiper-button:hover {
   background-color: #a55c30;
 }
+
 .prev-btn {
   left: 75px;
 }
+
 .next-btn {
   right: 75px;
 }
+
 .swiper-button ion-icon {
   width: 24px;
   height: 24px;
@@ -346,8 +384,7 @@ colors :
 
 
 /* test-header */
-.Test-header {
-}
+
 .Test-achievments {
   display: flex;
   flex-direction: row;
@@ -355,6 +392,7 @@ colors :
   justify-content: space-between;
   align-items: center;
 }
+
 .Test-achievment {
   color: white;
   display: flex;
@@ -362,25 +400,27 @@ colors :
   width: fit-content;
   text-align: center;
 }
+
 .Test-num {
   font-family: Nunito Sans;
   font-size: 72px;
   font-weight: 600;
   line-height: 98.06px;
 }
+
 .Test-text {
   font-family: Nunito Sans;
   font-size: 24px;
   font-weight: 400;
   line-height: 32.69px;
 }
+
 /* test-middle */
 .Test-middle {
   background-color: #f8d7a4;
   padding: 116px 173px 61px;
 }
-.Test-main-middle {
-}
+
 .Test-middle-heading {
   font-family: Lora;
   font-size: 48px;
@@ -390,6 +430,7 @@ colors :
   color: #a55c30;
   margin-bottom: 61px;
 }
+
 .Test-middle-box {
   padding: 72px 145px;
   /* margin-top: 61px; */
@@ -400,15 +441,18 @@ colors :
   column-gap: 130px;
   background-color: #ffffff;
 }
+
 .Test-middle-box-profile img:first-child {
   width: 160px;
   height: 160px;
   /* border-radius: 100%; */
 }
+
 .profile-detail {
   text-align: center;
   margin-top: 33px;
 }
+
 .profile-detail-name {
   font-family: Nunito Sans;
   font-size: 29px;
@@ -417,6 +461,7 @@ colors :
   display: block;
   margin-bottom: -10px;
 }
+
 .profile-detail-loc {
   font-family: Nunito Sans -Italic;
   font-size: 24px;
@@ -424,6 +469,7 @@ colors :
   line-height: 36px;
   color: #979797;
 }
+
 .Test-middle-box-desc {
   font-family: Nunito Sans -Italic;
   font-size: 24px;
@@ -431,6 +477,7 @@ colors :
   line-height: 36px;
   text-align: center;
 }
+
 .desc-stars {
   margin-top: 64px;
   display: flex;
@@ -438,6 +485,7 @@ colors :
   justify-content: center;
   align-items: center;
 }
+
 .desc-stars ion-icon {
   width: 30px;
   height: 28px;
@@ -456,6 +504,7 @@ colors :
 
   height: 306px;
 }
+
 .test-bottom-title {
   font-family: Nunito Sans;
   font-size: 32px;
@@ -463,6 +512,7 @@ colors :
   line-height: 43.58px;
   text-align: center;
 }
+
 .test-bottom-sub {
   font-family: Nunito Sans;
   font-size: 56px;
@@ -471,5 +521,266 @@ colors :
   text-align: center;
 }
 
-/* Testimonials responsive styles */
+/* CONTACT section */
+.contact-parent {
+  max-width: 100%;
+  height: 1069px;
+  background-color: #ffffff;
+}
 
+.contact-title div {
+  color: #A55C30;
+  font-size: 56px;
+  font-family: Lora;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 105px;
+}
+
+/* Form part */
+
+.form-part {
+  width: 727px;
+  height: 709px;
+  background-color: #E8EAEC;
+  margin: 86px auto;
+}
+
+.input-container {
+  padding-top: 94px;
+}
+
+.contact-inpt {
+  margin: 22px auto;
+  display: block;
+  width: 439px;
+  height: 54px;
+  outline: none;
+  border: none;
+  padding-left: 37px;
+  background-color: #FFFFFF;
+}
+
+.inpt-btm {
+  height: 204px;
+  padding-bottom: 145px;
+}
+
+.detail-inpt {
+  position: relative;
+}
+
+.detail-inpt img {
+  position: absolute;
+  top: 30px;
+  right: 170px;
+}
+
+.btn-contact {
+  width: 245px;
+  height: 60px;
+  font-family: Lato;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 22px 243px 79px 239px;
+  line-height: 60px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #A55C30;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 437px;
+  background-color: #0C0C0C;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-1 {
+  width: 252px;
+}
+
+.section-2 {
+  width: 428px;
+}
+
+/* section 2 input button */
+.input-btn {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-left: -40px;
+}
+
+.sec2-input {
+  width: 276px;
+  height: 54px;
+  border: 0.5px solid #D2D2D2;
+  padding-left: 23px;
+  outline: none;
+}
+
+.sec2-btn {
+  width: 135px;
+  height: 53px;
+  background-color: #A55C30;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  border: none;
+
+}
+
+.footer-title-1 {
+  margin-top: 62px;
+  font-family: Lora;
+  font-weight: 700;
+  font-size: 32px;
+  color: #A55C30;
+}
+
+.footer-title-1 span {
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.footer-title-2,
+.footer-title-3 {
+  margin-top: 75px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  font-size: 24px;
+  color: #A55C30;
+}
+
+.footer-title-2 {
+  margin-left: 70px;
+}
+
+.footer-title-3 {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.T-1,
+.T-1-2,
+.T-2 {
+  margin-top: 16px;
+  font-family: Nunito Sans;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  word-spacing: 5%;
+  color: #FAFAFA;
+}
+
+.T-2 {
+  text-align: center;
+  width: 300px;
+  margin-top: 32px;
+
+}
+
+/* contact part */
+.section-3 {
+  width: 231px;
+  height: 205px;
+  margin-top: 38px;
+  margin-right: 20px;
+}
+
+/* location */
+.loc-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.loc-sec div {
+  display: inline-block;
+}
+
+.loc-title {
+  width: 170px;
+  height: 46px;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 22px;
+  color: #FAFAFA;
+}
+
+/* phone */
+.phone-sec,
+.packet-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 23px;
+}
+
+
+.phone-title {
+  width: 127px;
+  height: 36px;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #FAFAFA;
+  margin-right: 20px;
+}
+
+/* packet */
+.packet-sec {
+  margin-top: 28px;
+}
+
+.packet-title {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 300px;
+  color: #FAFAFA;
+}
+
+/* Footer logo */
+.logo-container {
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 62px 120px 18px 120px;
+}
+
+.logo-container a img {
+  width: 30px;
+}
+
+.border-btn {
+  width: 1175px;
+  border-bottom: 1.5px solid #E5E5E566;
+  margin: 0 106px 73px 155px;
+}
+
+/* copyright part */
+.copyright-title {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 300;
+  color: #FAFAFA;
+  margin-top: -50px;
+  text-align: center;
+}
+
+/* Testimonials responsive styles */
