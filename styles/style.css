@@ -588,6 +588,11 @@ colors :
   border: none;
   color: #FFFFFF;
   background-color: #A55C30;
+  transition: all 0.3s
+}
+.btn-contact:hover {
+  background-color:hwb(23 19% 46%) ;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -638,7 +643,12 @@ colors :
   letter-spacing: 0.5px;
   color: #FFFFFF;
   border: none;
+  transition: all 0.3s;
 
+}
+.sec2-btn:hover {
+  background-color:hwb(23 19% 46%) ;
+  cursor: pointer;
 }
 
 .footer-title-1 {
